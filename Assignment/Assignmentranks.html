@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+ <style>
+    body{ 
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+     }
+    .header{
+         background-image: url(https://www.canada.ca/content/dam/dnd-mdn/images/cadetsjcr/cadets/sea-cadets/air-cadets-video-still.png); 
+         color: #fff;  
+         text-align: center;
+         margin: auto;
+         padding: 5px;
+         font-family:Verdana, Geneva, Tahoma, sans-serif;
+         letter-spacing: 5px;
+         font-size: 30px;
+         background-size: contain;
+
+     }
+    .nav-bar{ 
+        background-color: #333; 
+        overflow: hidden; 
+        font-size: 20px;
+    }
+    .nav-bar a{ 
+        float: left; 
+        display: block; 
+        color: rgb(236, 69, 69); 
+        text-align: center; 
+        padding: 14px 20px; 
+        text-decoration:wavy;
+    }
+    .nav-bar a:hover{ 
+        background-color: #ddd; 
+        color: black; 
+    }
+    .intro{ 
+        padding: 50px; 
+        text-align: center; 
+    }
+    .content-section{
+         padding: 20px; 
+    }
+    .footer{
+        background-color: #222; 
+        color: white; text-align: center; 
+        padding: 10px; 
+         font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+         font-size: 20px;
+         margin:20px;
+    }
+    .ftx{
+        background-image: url(https://scontent.fyka1-1.fna.fbcdn.net/v/t39.30808-6/313426046_5822692817782701_8295970819488517106_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=3635dc&_nc_ohc=xe6xNUt9PWUAX--vhDp&_nc_ht=scontent.fyka1-1.fna&oh=00_AfBn9r9XyI-SqSh3KImg6ZZNx9Qc5qh-nW-AxH4Yt1BNzQ&oe=65EA1131);
+        background-position-y:60%;
+        height:200px;
+        width:auto;
+    }
+    .marksmanship{
+        background-image: url(https://www.bpmcdn.com/f/files/cloverdale/import/2018-05/12014263_web1_TeresaLiao-Cadets.jpg);
+        background-position-y: center;
+        height:200px;
+        width:auto;
+        background-size: cover;
+    }
+    .drill{
+        background-image: url(https://i.ytimg.com/vi/or_hoFNTztA/maxresdefault.jpg);
+        background-position-y: 40%;
+        height:200px;
+        width:auto;
+        background-size: cover;
+    }
+    .Tours{
+        background-image: url(https://scontent.fyka1-1.fna.fbcdn.net/v/t39.30808-6/333986629_710583524101415_435458737126581268_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=3635dc&_nc_ohc=0SXILINhB0UAX-Cgqdy&_nc_ht=scontent.fyka1-1.fna&oh=00_AfDvaRucqo4PFtqwWf1u7tM4AfVdJElCy2Z9XcOsJnGv4g&oe=65EA6AB4);
+        background-position-y: 55%;
+        height:200px;
+        width:auto;
+        background-size: cover;
+    }
+    .Fitness{
+        background-image: url(https://scontent.fyka1-1.fna.fbcdn.net/v/t31.18172-8/17834413_1404192112966149_3149163296250384571_o.jpg?_nc_cat=104&ccb=1-7&_nc_sid=4dc865&_nc_ohc=PL0hZ-lHGcoAX__1Yqf&_nc_ht=scontent.fyka1-1.fna&oh=00_AfDotdnkvUS0Jf5Cr8ILws-o4wZVP42FMB0Kf5-wT8cETw&oe=660CDDCF);
+        background-position-y: 40%;
+        height:200px;
+        width:auto;
+        background-size: cover;
+    }
+    .Fam{
+        background-image: url(https://scontent.fyka1-1.fna.fbcdn.net/v/t39.30808-6/316418157_5877920662259916_7075061455270943079_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=3635dc&_nc_ohc=P8MhOImEJXcAX9aLTrx&_nc_ht=scontent.fyka1-1.fna&oh=00_AfBegu_cG6lx57oViT6PSjpxYjx1285tQO7oUK3dApwq-Q&oe=65EA800B);
+        background-position-y: 40%;
+        height:200px;
+        width:auto;
+        background-size: cover;
+    }
+    p.texts{
+        background-color: rgb(255, 255, 255);
+        color:black;  
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 20px;
+        width:900px
+    }
+    p.text{
+        background-color: rgb(255, 255, 255);
+        color:black;  
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 20px; 
+    }
+    .button {
+        background-color: #274ecf; 
+        overflow: hidden; 
+        font-size: 20px;
+        display:inline-block;
+        color:aliceblue;
+        padding:10px;
+        margin-left: 695px;
+        margin-top: 5px;
+    }
+    .button:hover { 
+        background-color: #ddd; 
+        color: black; 
+    }
+    a:link {
+        text-decoration:none;
+    }
+    .welcome{
+        text-align: center;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .welcomes{
+        text-align: Left;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    img{
+        height:75px;
+        width:auto;
+        float:left;
+        padding:10px;
+    }
+    img.level{
+        height:200px;
+        width:auto;
+    }
+    img.badge{
+        height: 550px;
+        width:auto;
+    }
+    </style>
+
+<body>
+
+<div class="header">
+    <h1>Royal Canadian Air Cadets</h1>
+</div>
+
+<div class="nav-bar">
+    <a href="Assignmentmain.html">Home</a>
+    <a href="Assignmentintro.html">Introduction</a>
+    <a href="Assignmentranks.html">Ranks and Levels</a>
+    <a href="Assignmentprogram.html">Activities</a>
+    <a href="Assignmentgallery.html">Gallery</a>
+    
+</div>
+
+<div class="content">
+    <div class="text-block">
+      <h2 class="welcome">Ranks and Programs</h2>
+      
+      <p class="text">  The Royal Canadian Air Cadets program includes a well-structured rank system that acknowledges the progression, leadership responsibilities, and achievements of a cadet as they advance through the program. Loosely based on the Canadian Armed Forces, this system creates a hierarchical system that promotes discipline, respect, and real-world leadership scenarios.</p>
+      <br>
+
+        <p class="text"> Promotion through the ranks is dependent upon a number of factors, including the cadet’s time in service, the completion of training levels, their leadership abilities, and participation in cadet activities. Each rank introduces new challenges and opportunities, encouraging the cadet to increase their skills, self-confidence, and leadership potential.</p>
+    <br>
+    
+    <h3 class=welcomes>Air Cadet(AC)</h3>
+    <img src="https://admin.skacl.ca//storage/uploads/2019/08/08/5d4c89b52f1f41---AC.png">
+        <p class="texts">The membership prior to focussed training and air orientation.</p>
+    
+      <br>
+    
+    <h3 class=welcomes>Leading Air Cadet(LAC)</h3>
+    <img src="https://admin.skacl.ca//storage/uploads/2019/08/08/5d4c89b5433b72---LAC.png">
+        <p class="texts">Upon successful completion of the mandatory training required to participate in most activities, cadets are introduced to the principles of leadership.</p>
+    
+      <br>
+    <h3 class=welcomes>Corporal(Cpl)</h3>
+    <img src="https://admin.skacl.ca//storage/uploads/2019/08/08/5d4c89b5606943---CPL.png">
+      <p class="texts">The first non-commissioned officer (NCO) rank entails additional leadership and responsibilities.</p>
+    
+      <br>
+    <h3 class=welcomes>Flight Corporal(FCpl)</h3>
+    <img src="https://admin.skacl.ca//storage/uploads/2019/08/08/5d4c89b5813644---FCPL.png">
+      <p class="texts">Demonstrates further leadership and proficiency, carrying with the ability additional responsibilities within cadet activities.</p>
+      <br>
+    <h3 class=welcomes>Sergeant(Sgt)</h3>
+    <img src="https://admin.skacl.ca//storage/uploads/2019/08/08/5d4c89b5a18395---SGT.png">
+      <p class="texts">A senior NCO rank, sergeants are responsible for mentoring younger cadets, leading small teams and assisting in the planning and executing of cadet activities.</p>
+     <br>
+     <h3 class=welcomes>Flight Sergeant(FSgt)</h3>
+     <img src="https://admin.skacl.ca//storage/uploads/2019/08/08/5d4c89b5c83e06---FSGT.png">
+      <p class="texts">Providing substantial leadership for cadet groups and ability to assist with many training programs</p>
+      <br>
+      <h3 class=welcomes>Warrant Officer 2nd Class(WO2)</h3>
+      <img src="https://admin.skacl.ca//storage/uploads/2019/08/08/5d4c89b5f12487---WO2.png">
+      <p class="texts">A senior leadership position providing a significant level of organizational responsibilities, developed training awareness, and be8comes a senior advisor with younger cadets and staff.</p>
+      <br>
+      <h3 class=welcomes>Warrant Officer 1st Class(WO1)</h3>
+      <img src="https://admin.skacl.ca//storage/uploads/2019/08/08/5d4c89b61dad88---WO1.jpg">
+      <p class="texts">The highest rank achievable by a cadet and acknowledges the individual has reached the epitome of leadership, responsibility, and dedication within the program. WO1s play a crucial role in the leadership of cadet corps/squadrons and are often involved in a great deal of regional and national cadet activities.</p>
+<br>
+<img class="badge" src="https://www.chadburn.org/wp-content/uploads/2019/12/Left-Sleeve-Revised.png" style="float:right">
+    <p class=text>In the Cadet program, each rank comes with a badge that you must sew on to show your rank and achievements. On the right is a diagram explaining how to sew these on</p>
+    <br>
+
+      <p class="text">The Royal Canadian Air Cadets program is a series of levels where cadets embark on a new series of training and challenges designed to educate and challenge. Level One introduces cadets to the fundamentals of the Air Cadet program including aviation history, principles of flight, and drill movements. It broadens to Level Two and beyond where cadets delve deeper into the world of aerospace and are introduced to complex subjects such as navigation, meteorology, principles of leadership, and lots of physical education.
+    </p>
+    <br>
+    <img class="level" src="https://images.squarespace-cdn.com/content/v1/57afa3d6ff7c50648d97a761/1562271395819-V9S2D2D2I7CAIFWHIN1Y/Levels-1024x365.png">
+    <br>
+    <p class="text">Levels Three and Four take training to a higher level in all areas with more focus on leadership roles within the squadron, military and community service and effective speaking. Level Five is the capstone for senior cadets and is designed to prepare them for jobs as squadron leaders and officers. Senior cadets learn how to become leaders as they receive training in instructional techniques, program planning, and more advanced aviation topics. This highly structured training approach means that as cadets progress they will be building on their knowledge, skills and experiences and will be well prepared to take their place as leaders in the Air Cadets and life.</p>
+
+    <p class="text">If you want to learn more about the ranks, levels, and the badges that come along, click below!!!</p>
+    <a href="https://skacl.ca/resources/symbols"; class="button">Learn More</a>
+      
+    </div>
+  </div>
+
+<div class="footer">Royal Canadian Air Cadets<br> Created By Max Yang</div>
+
+</body>
+</html>
