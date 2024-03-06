@@ -27,10 +27,17 @@
         text-align: center; 
         padding: 14px 20px; 
         text-decoration:wavy;
-    }
+        }
     .nav-bar a:hover{ 
-        background-color: #ddd; 
         color: black; 
+        transition: 0.7s;
+        background-image:url(https://www.canada.ca/content/dam/dnd-mdn/images/cadetsjcr/cadets/sea-cadets/air-cadets-video-still.png);
+        background-size: 150%;
+        background-position-x: 50%;
+        background-position-y: 50%;
+        width:45px;
+        height:25px;
+        font-size:0;
     }
     .intro{ 
         padding: 50px; 
@@ -77,8 +84,14 @@
         margin-top: 10px;
     }
     .button:hover { 
-        background-color: #ddd; 
-        color: black; 
+        background-image:url(https://www.rcinet.ca/en/wp-content/uploads/sites/3/2019/04/rcaf-hornet-150-cpl-manuela-berger-ck01-2017-0278-009-635x357.jpg);
+        background-size: 150%;
+        background-position-x: 50%;
+        background-position-y: 50%;
+        width:75px;
+        height:25px;
+        font-size: 0;
+        transition: 2s;
     }
     a:link {
         text-decoration:none;
@@ -94,6 +107,14 @@
         font-size: 16px;
         line-height: 20px;
     }
+    .current{
+        background-image:url(https://pbs.twimg.com/media/FSRQd6gXMAUrTi5.jpg);
+        background-size: 125%;
+        background-position-x: 35%;
+        background-position-y: 50%;
+        width:50px;
+        height:25px;
+    }
     </style>
 
 <body>
@@ -103,9 +124,9 @@
 </div>
 
 <div class="nav-bar">
-    <a href="Assignmentmain2.html">Home</a>
-    <a href="Assignmentintro2.html">Introduction</a>
-    <a href="Assignmentranks2.html">Ranks and Levels</a>
+    <a href="Assignmentmain2.html" class="current"></a>
+    <a href="Assignmentintro2.html">Intro</a>
+    <a href="Assignmentranks2.html">Ranks</a>
     <a href="Assignmentprogram2.html">Activities</a>
     <a href="Assignmentgallery2.html">Gallery</a>
 </div>
